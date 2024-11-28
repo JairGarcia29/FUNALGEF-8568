@@ -37,5 +37,15 @@ namespace AlquilerCarros
             return $"Numero: {Numero}\nCarro: {CarroAlq}\nCliente: {Contratante}\nPrecio :{Precio}";
         }
     }
+    public class Clienteutil
+    {
+        public int Numero { get; set; }
+        public Carro CarroAlq { get; set; }
+        public Cliente Contratante { get; set; }
+        public double Precio { get; set; }
+        public override string? ToString()
+        {
+            return $"Numero: {Numero}\nCarro: {CarroAlq}\nCliente: {Contratante}\nPrecio :{Precio}";
+        }
+    }
 }
-//hola
